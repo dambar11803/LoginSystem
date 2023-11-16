@@ -1,0 +1,6 @@
+username: admin  password:admin
+
+username: kala   pasword:kal12345
+
+Username: dam     Password: dam@12345   
+Username:ram      Password:Nepal@123

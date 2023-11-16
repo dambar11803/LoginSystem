@@ -1,0 +1,25 @@
+html,body {
+    height:100%;
+    width:100%;
+    margin:0;
+    background-color: #E5E7E9;
+    font-family: "Times New Roman", Times, serif;
+  }
+  body {
+    display:flex;
+  }
+  form {
+    margin:auto;/* nice thing of auto margin if display:flex; it center both horizontal and vertical :) */
+  }
+
+.loginpage{
+    background-color:#AED6F1 ;
+    width:400px;
+    height:350px;
+}
+
+.login-form{
+ padding:7px 5px 7px 3px;   
+ width:260px;
+}
+

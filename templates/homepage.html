@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block bodycontent %}
+
+<div class="container">
+    <p class="">Welcome, {{user.username}}</p>
+        <div class="link text-center">
+            <a href="{% url 'homepage' %}"><button type="button" class="btn btn-success">Home</button></a>
+            <a href="{% url 'passwordchange' %}"><button type="button" class="btn btn-success">Password Change</button></a>
+            <a href="{% url 'logout' %}"><button type="button" class="btn btn-danger">LogOut</button></a>
+        </div>
+</div>
+
+{% block nextsection %}
+
+<h4 class="text-center mt-5">Welcome to Homepage</h4>
+
+{% endblock nextsection %}
+
+{% endblock bodycontent %}
+
+
+

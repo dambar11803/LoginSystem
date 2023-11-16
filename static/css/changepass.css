@@ -1,0 +1,20 @@
+html,body {
+    height:100%;
+    width:100%;
+    margin:0;
+    background-color: #E5E7E9;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+
+.change-pass-form{
+    background-color:#AED6F1 ;
+    width:400px;
+    height:350px;
+    display: flex;
+    margin:auto;
+}
+
+form{
+    margin:auto;
+}
